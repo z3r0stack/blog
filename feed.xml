@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>niidvp</title>
+    <link href="https://z3r0stack.github.io/blog/feed.xml" rel="self" />
+    <link href="https://z3r0stack.github.io/blog" />
+    <updated>2017-07-25T20:29:55+07:00</updated>
+    <author>
+        <name>niidvp</name>
+    </author>
+    <id>https://z3r0stack.github.io/blog</id>
+
+    <entry>
+        <title>First Post My Blog</title>
+        <author>
+            <name>niidvp</name>
+        </author>
+        <link href="https://z3r0stack.github.io/blog/first-post-my-blog.html"/>
+        <id>https://z3r0stack.github.io/blog/first-post-my-blog.html</id>
+            <category term="blog"/>
+
+        <updated>2017-07-25T20:29:31+07:00</updated>
+            <summary></summary>
+        <content type="html">&amp;lt;p&amp;gt;Test Post My Blog&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &#x27;Content here, content here&#x27;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &#x27;lorem ipsum&#x27; will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).&amp;lt;/p&amp;gt;</content>
+
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://z3r0stack.github.io/blog/media/posts/1/aws-animation-teaser-large-5ac827d7617d87a2c90d5094773516f2b882ab8abe654bbc30f4ba816bfba51c.jpg" />
+    </entry>
+</feed>
