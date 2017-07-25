@@ -3,10 +3,28 @@
     <title>z3r0stack</title>
     <link href="https://z3r0stack.github.io/blog/feed.xml" rel="self" />
     <link href="https://z3r0stack.github.io/blog" />
-    <updated>1970-01-01T07:00:00+07:00</updated>
+    <updated>2017-07-25T22:49:21+07:00</updated>
     <author>
         <name>z3r0stack</name>
     </author>
     <id>https://z3r0stack.github.io/blog</id>
 
+    <entry>
+        <title>First Post My Blog</title>
+        <author>
+            <name>z3r0stack</name>
+        </author>
+        <link href="https://z3r0stack.github.io/blog/first-post-my-blog.html"/>
+        <id>https://z3r0stack.github.io/blog/first-post-my-blog.html</id>
+            <category term="blog"/>
+
+        <updated>2017-07-25T22:49:14+07:00</updated>
+            <summary></summary>
+        <content type="html">&amp;lt;p&amp;gt;My Blog Post&amp;amp;nbsp;&amp;lt;/p&amp;gt;
+&amp;lt;p class&#x3D;&amp;quot;msg--highlight&amp;quot;&amp;gt;Start Test&amp;amp;nbsp;Blog by Publii&amp;amp;nbsp;&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;&amp;amp;nbsp;Post Head&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;&amp;amp;nbsp;&amp;lt;/p&amp;gt;</content>
+
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://z3r0stack.github.io/blog/media/posts/1/aws-animation-teaser-large-5ac827d7617d87a2c90d5094773516f2b882ab8abe654bbc30f4ba816bfba51c.jpg" />
+    </entry>
 </feed>
