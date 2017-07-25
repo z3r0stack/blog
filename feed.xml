@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>niidvp</title>
+    <title>z3r0stack</title>
     <link href="https://z3r0stack.github.io/blog/feed.xml" rel="self" />
     <link href="https://z3r0stack.github.io/blog" />
-    <updated>2017-07-25T20:29:55+07:00</updated>
+    <updated>2017-07-25T21:32:02+07:00</updated>
     <author>
-        <name>niidvp</name>
+        <name>z3r0stack</name>
     </author>
     <id>https://z3r0stack.github.io/blog</id>
 
     <entry>
         <title>First Post My Blog</title>
         <author>
-            <name>niidvp</name>
+            <name>z3r0stack</name>
         </author>
         <link href="https://z3r0stack.github.io/blog/first-post-my-blog.html"/>
         <id>https://z3r0stack.github.io/blog/first-post-my-blog.html</id>
