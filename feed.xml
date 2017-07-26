@@ -3,12 +3,28 @@
     <title>z3r0stack</title>
     <link href="https://z3r0stack.github.io/blog/feed.xml" rel="self" />
     <link href="https://z3r0stack.github.io/blog" />
-    <updated>2017-07-25T23:15:53+07:00</updated>
+    <updated>2017-07-26T07:36:07+07:00</updated>
     <author>
         <name>z3r0stack</name>
     </author>
     <id>https://z3r0stack.github.io/blog</id>
 
+    <entry>
+        <title>รายการ Website สำหรับการเรียนรู้ด้านโปรแกรมมิ่ง</title>
+        <author>
+            <name>z3r0stack</name>
+        </author>
+        <link href="https://z3r0stack.github.io/blog/website.html"/>
+        <id>https://z3r0stack.github.io/blog/website.html</id>
+
+        <updated>2017-07-26T07:36:00+07:00</updated>
+            <summary></summary>
+        <content type="html">&amp;lt;p&amp;gt;รวบรวม List รายการ สำหรับเรียนรู้ด้าน Programming&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;&amp;amp;nbsp;&amp;lt;/p&amp;gt;
+&amp;lt;iframe width&#x3D;&amp;quot;100%&amp;quot; height&#x3D;&amp;quot;533&amp;quot; style&#x3D;&amp;quot;background: transparent; border: 1px solid #ccc;&amp;quot; class&#x3D;&amp;quot;airtable-embed&amp;quot; src&#x3D;&amp;quot;https://airtable.com/embed/shrYQ6q1KcKg8D611?backgroundColor&#x3D;orange&amp;quot; frameborder&#x3D;&amp;quot;0&amp;quot; onmousewheel&#x3D;&amp;quot;&amp;quot;&amp;gt;&amp;lt;/iframe&amp;gt;</content>
+
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://z3r0stack.github.io/blog/media/posts/2/marc-mueller-210523.jpg" />
+    </entry>
     <entry>
         <title>First Post My Blog</title>
         <author>
