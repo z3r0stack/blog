@@ -1,0 +1,347 @@
+<!doctype html><html amp lang="en"><head><meta charset="utf-8"><title>Open API ที่น่าสนใจ - Z3R0stack</title><meta name="robots" content="index, follow"><link rel="canonical" href="https://z3r0stack.github.io/blog/open-api.html"><meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1"><link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" type="text/css"><script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script><script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script><script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://z3r0stack.github.io/blog/amp/open-api.html"},"headline":"Open API ที่น่าสนใจ ","datePublished":"2017-07-26T08:30","dateModified":"2017-07-26T08:30","image":{"@type":"ImageObject","url":"https://z3r0stack.github.io/blog/media/posts/3/alex-holyoake-60250.jpg","height":2904,"width":5163},"description":"รายการ Open API&nbsp;Serverless Framework OpenTable SF OpenData Spotify API Imgflip API Yelp&hellip;","author":{"@type":"Person","name":"z3r0stack"},"publisher":{"@type":"Organization","name":"z3r0stack"}}</script><style amp-custom="">body,
+		div,
+		dl,
+		dt,
+		dd,
+		ul,
+		ol,
+		li,
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6,
+		pre,
+		figure,
+		form,
+		fieldset,
+		p,
+		blockquote,
+		th,
+		td {
+			margin: 0;
+			padding: 0;
+		}
+		body {
+			font-family: 'Roboto', sans-serif;
+			font-size: 1.1rem;
+			font-weight: 400;
+			line-height: 1.6;
+			background: #fff;
+			color: #000000;
+
+		}
+		a,
+		a:visited {
+			color: #039be5;
+			text-decoration: none;
+			outline: none;
+		}
+		a:hover,
+		a:active,
+		a:focus {
+			color: #000;
+		}
+		li {
+			list-style: none;
+		}
+		b,
+		strong {
+			font-weight: 700;
+		}
+		blockquote,
+		p,
+		ul,
+		ol,
+		dl,
+		table {
+			margin-top: 1.6rem;
+		}
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			color: #000000;
+			letter-spacing: -0.03rem;
+			line-height: 1.2;
+			margin-top: 2.93333rem;
+		}
+
+		h1 {
+			font-size: 1.56621rem;
+
+		}
+
+		h2 {
+			font-size: 1.39219rem;
+		}
+
+		h3 {
+			font-size: 1.2375rem;
+		}
+
+		h4 {
+			font-size: 1.1rem;
+		}
+
+		h5 {
+			font-size: 0.97778rem;
+		}
+
+		h6 {
+			font-size: 0.86914rem;
+		}
+		h1+p,
+		h2+p,
+		h3+p,
+		h4+p,
+		h5+p,
+		h6+p {
+			margin-top: 0.8rem;
+		}
+		h1 > sup {
+			color: #777777;
+			font-size: 0.95rem;
+            font-weight: 400;
+		}
+		blockquote {
+			border-left: 0.2rem solid #039be5;
+			color: #039be5;
+			padding: 0.8rem 0 0.8rem 1.86667rem;
+		}
+		blockquote cite {
+			color: #111111;
+			display: block;
+			font-size: 0.9rem;
+			margin-top: 0.8rem;
+		}
+		blockquote cite:before {
+			content: "- ";
+		}
+		ul {
+			margin-left: 1rem;
+		}
+		ul>li {
+			list-style-position: outside;
+			padding-left: 1rem;
+		}
+		ol {
+			margin-left: 0;
+		}
+		ol>li {
+			counter-increment: step-counter;
+			position: relative;
+			padding-left: 2rem;
+		}
+		ol>li:before {
+			content: counter(step-counter) ".";
+			color: #111111;
+			left: 0;
+			position: absolute;
+		}
+		dl dt {
+			font-weight: 400;
+		}
+		pre {
+			margin: 1.6rem 0 0;
+			padding: 1.6rem 3.2rem;
+			white-space: pre-wrap;
+			word-wrap: break-word;
+		}
+		code,
+		pre {
+			background-color: #f6f6f6;
+			font-family: "Monaco", "Courier New", monospace;
+		}
+		table {
+			border-collapse: collapse;
+			border-spacing: 0;
+			display: block;
+			max-width: 100%;
+			overflow-x: auto;
+			vertical-align: top;
+			text-align: left;
+			white-space: nowrap;
+		}
+		table th {
+			border-bottom: 2px solid #dedede;
+			padding: 0.8rem 1.33333rem;
+		}
+		table tr:nth-child(2n) {
+			background: #f3f3f3;
+		}
+		table td {
+			padding: 0.8rem 1.33333rem;
+		}
+        figure {
+            margin: 2rem 0 1rem 0;
+        }
+		figcaption {
+			clear: both;
+			color: #4d4d4d;
+			font-style: italic;
+			font-size: 0.7rem;
+			margin: 0.8rem 0 0;
+			text-align: center;
+		}
+		.wrap {
+			max-width: 600px;
+			margin: 0 auto;
+			padding: 0 4%;
+		}
+		.navbar {
+            background: #039be5;
+            box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.2);
+            line-height: 3;
+            margin-bottom: 2.128rem;
+            max-height: 4rem;
+            padding: 0 4%;
+        }
+		.navbar>div {
+			align-items: center;
+			display: flex;
+			justify-content: center;
+			text-align: left;max-width: 600px;
+			margin: 0 auto;
+		}
+		.navbar a {
+			color: #fff;
+			text-decoration: none;
+		}
+		.logo {
+            display: block;
+			line-height: 1;
+			margin: 0 auto;
+			height: 2rem;
+            text-indent: -9999px;
+            width: 240px;
+		}
+        .logo.logo-text {
+            line-height: 1.6;
+            text-align: center;
+            text-indent: 0;
+        }
+		.navbar-sidebar-toggle {
+			left: 0;
+			position: relative;
+			text-indent: -99999rem;
+		}
+		.navbar-sidebar-toggle:before {
+            content: "";
+            display: block;
+			border-top: 0.375rem double #ffffff;
+			border-bottom: 0.125rem solid #ffffff;
+			height: 0.125rem;
+			position: absolute;
+			text-indent: 0;
+			top: 50%;
+			width: 1.3rem;
+			transform: translate(0px, -50%);
+		}
+        amp-img {
+            max-width: 100%;
+        }
+		amp-sidebar {
+			background: #fff;
+			width: 240px;
+		}
+		amp-sidebar li {
+			color: #212121;
+			font-size: 0.95rem;
+            font-weight: 700;
+			list-style: none;
+			 padding: 0.532rem 1rem;
+		}
+		amp-sidebar a, amp-sidebar a:visited {
+			border-left: 2px solid transparent;
+            color: #212121;
+		}
+		amp-sidebar ul ul {
+			margin: 1rem 0 0;
+		}
+		amp-sidebar li li { font-weight: 400;
+			 padding: 0.266rem 0 0.266rem 1rem;
+		}
+		.hero {
+			margin-bottom: 2.93333rem;
+		}
+		article  {
+			margin-bottom: 4rem;
+		}
+		article > header {
+			color: #777777;
+			font-size: 0.95rem;
+			margin-bottom: 1.866rem;
+		}
+		aside {
+			margin: 1.6rem 0 1.866rem;
+		}
+		amp-social-share {
+			border-radius: 50%;
+			background-size: 70%;
+            margin-right: 5px;
+		}
+		.pagination {
+			border-top: 1px solid #ddd;
+			display: flex;
+			justify-content: space-between;
+			align-items: baseline;
+		}
+		.pagination a {
+			color: #000000;
+			display: block;
+			font-size: 0.95rem;
+			font-weight: 700;
+			line-height: 1;
+			margin: 0 0 0.532rem;
+			position: relative;
+		}
+		.pagination a + a {
+            width: 50%;
+            text-align: right;
+        }
+		.pagination-prev {
+			padding: 0.8rem 0.8rem 0.8rem 1.6rem;
+		}
+		.pagination-next {
+			padding: 0.8rem 1.6rem 0.8rem 0.8rem;
+		}
+		.pagination-next:before {
+			content: "\2192";
+			position: absolute;
+			right: 0;
+		}
+		.pagination-prev:before {
+			content: "\2190";
+			position: absolute;
+			left: 0;
+		}
+		.post-tag {
+			font-size: 0.95rem;
+			margin-bottom: 1.866rem;
+		}
+		.post-tag dt {
+			float: left;
+		}
+		.post-tag dd {
+			display: inline-block;
+			list-style: none;
+			margin: 0 0 0 0.266rem;
+		}
+		.post-tag dd>a:after {
+			content: ", ";
+		}
+		.bottom {
+			background: #039be5;
+			color: #fff;
+			font-size: 0.95rem;
+			padding: 1rem 4%;
+			text-align: center;
+		}
+        .author-avatar {
+            margin: 1rem auto;
+            width: 100px;
+        }</style><style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript><script async src="https://cdn.ampproject.org/v0.js"></script></head><body><nav class="navbar"><div><a on="tap:navbar-sidebar.toggle" class="navbar-sidebar-toggle" title="Menu">Menu</a> <a class="logo logo-text" href="https://z3r0stack.github.io/blog/amp">Z3R0stack</a></div></nav><main class="wrap"><article class="post"><header><h1>Open API ที่น่าสนใจ</h1><p>by <a href="https://z3r0stack.github.io/blog/amp/authors/z3r0stack/" rel="nofollow" title="z3r0stack">z3r0stack</a>,<br>published on <time datetime="2017-07-26T08:30">26 Jul 2017</time></p></header><figure><amp-img src="https://z3r0stack.github.io/blog/media/posts/3/alex-holyoake-60250.jpg" alt="Open" srcset="https://z3r0stack.github.io/blog/media/posts/3/responsive/alex-holyoake-60250-xs.jpg 300w ,https://z3r0stack.github.io/blog/media/posts/3/responsive/alex-holyoake-60250-sm.jpg 480w ,https://z3r0stack.github.io/blog/media/posts/3/responsive/alex-holyoake-60250-md.jpg 768w ,https://z3r0stack.github.io/blog/media/posts/3/responsive/alex-holyoake-60250-lg.jpg 1024w" sizes="(min-width: 56.25em) 100vw, (min-width: 37.5em) 50vw, 100vw" height="2904" layout="responsive" width="5163"></amp-img><figcaption>Photo by Alex Holyoake on Unsplash https://unsplash.com/search/open?photo&#x3D;R-HXWCbCBGU</figcaption></figure><h1 id="open-api-interesting-i">รายการ Open API&nbsp;</h1><h3 id="serverless-framework"><a href="https://serverless.com/">Serverless Framework</a></h3><amp-img src="https://4.bp.blogspot.com/-GBNcOIvo-KQ/WVUwzmvl4oI/AAAAAAAAAUM/UjxYmUdVOioLU148QhZC8ih_DMzD-qRvACPcBGAYYCw/s1600/5924456427159552.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://4.bp.blogspot.com/-GBNcOIvo-KQ/WVUwzmvl4oI/AAAAAAAAAUM/UjxYmUdVOioLU148QhZC8ih_DMzD-qRvACPcBGAYYCw/s1600/responsive/5924456427159552-xs.png 300w ,https://4.bp.blogspot.com/-GBNcOIvo-KQ/WVUwzmvl4oI/AAAAAAAAAUM/UjxYmUdVOioLU148QhZC8ih_DMzD-qRvACPcBGAYYCw/s1600/responsive/5924456427159552-sm.png 480w ,https://4.bp.blogspot.com/-GBNcOIvo-KQ/WVUwzmvl4oI/AAAAAAAAAUM/UjxYmUdVOioLU148QhZC8ih_DMzD-qRvACPcBGAYYCw/s1600/responsive/5924456427159552-md.png 768w" alt="Serverless" layout="responsive"></amp-img><br><hr><h3 id="opentable"><a href="https://www.opentable.com/start/home">OpenTable</a></h3><amp-img src="https://2.bp.blogspot.com/-FkAzAeTPRaI/WVUwyo8cxaI/AAAAAAAAAUM/VLYkek3eJ-Iqr_2IG1V5TRDZXviLuoqDwCPcBGAYYCw/s1600/5507373201620992.jpg" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://2.bp.blogspot.com/-FkAzAeTPRaI/WVUwyo8cxaI/AAAAAAAAAUM/VLYkek3eJ-Iqr_2IG1V5TRDZXviLuoqDwCPcBGAYYCw/s1600/responsive/5507373201620992-xs.jpg 300w ,https://2.bp.blogspot.com/-FkAzAeTPRaI/WVUwyo8cxaI/AAAAAAAAAUM/VLYkek3eJ-Iqr_2IG1V5TRDZXviLuoqDwCPcBGAYYCw/s1600/responsive/5507373201620992-sm.jpg 480w ,https://2.bp.blogspot.com/-FkAzAeTPRaI/WVUwyo8cxaI/AAAAAAAAAUM/VLYkek3eJ-Iqr_2IG1V5TRDZXviLuoqDwCPcBGAYYCw/s1600/responsive/5507373201620992-md.jpg 768w" alt="opentable" layout="responsive"></amp-img><br><hr><h3 id="sf-opendata"><a href="https://datasf.org/opendata/">SF OpenData</a></h3><amp-img src="https://4.bp.blogspot.com/-3jPCGiaiYe4/WVUwzeAg-BI/AAAAAAAAAUM/tlKxWXW6AZ40tA5v17krYoYMjEBmOtGJACPcBGAYYCw/s1600/5559152278765568.jpg" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://4.bp.blogspot.com/-3jPCGiaiYe4/WVUwzeAg-BI/AAAAAAAAAUM/tlKxWXW6AZ40tA5v17krYoYMjEBmOtGJACPcBGAYYCw/s1600/responsive/5559152278765568-xs.jpg 300w ,https://4.bp.blogspot.com/-3jPCGiaiYe4/WVUwzeAg-BI/AAAAAAAAAUM/tlKxWXW6AZ40tA5v17krYoYMjEBmOtGJACPcBGAYYCw/s1600/responsive/5559152278765568-sm.jpg 480w ,https://4.bp.blogspot.com/-3jPCGiaiYe4/WVUwzeAg-BI/AAAAAAAAAUM/tlKxWXW6AZ40tA5v17krYoYMjEBmOtGJACPcBGAYYCw/s1600/responsive/5559152278765568-md.jpg 768w" alt="SF OpenData" layout="responsive"></amp-img><br><h3 id="spotify-api"><a href="https://developer.spotify.com/web-api/">Spotify API</a></h3><amp-img src="https://2.bp.blogspot.com/-cr_Evg1dpog/WVUw0tCYh5I/AAAAAAAAAUs/xJ_H4PF5YQ0VBQuLBQvf9C4RiKH6PL8ogCPcBGAYYCw/s1600/6091854925004800.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://2.bp.blogspot.com/-cr_Evg1dpog/WVUw0tCYh5I/AAAAAAAAAUs/xJ_H4PF5YQ0VBQuLBQvf9C4RiKH6PL8ogCPcBGAYYCw/s1600/responsive/6091854925004800-xs.png 300w ,https://2.bp.blogspot.com/-cr_Evg1dpog/WVUw0tCYh5I/AAAAAAAAAUs/xJ_H4PF5YQ0VBQuLBQvf9C4RiKH6PL8ogCPcBGAYYCw/s1600/responsive/6091854925004800-sm.png 480w ,https://2.bp.blogspot.com/-cr_Evg1dpog/WVUw0tCYh5I/AAAAAAAAAUs/xJ_H4PF5YQ0VBQuLBQvf9C4RiKH6PL8ogCPcBGAYYCw/s1600/responsive/6091854925004800-md.png 768w" alt="Spotify" layout="responsive"></amp-img><br><hr><h3 id="imgflip-api"><a href="https://api.imgflip.com/">Imgflip API</a></h3><amp-img src="https://1.bp.blogspot.com/-qRxtfOMtRQc/WVUwygqaHYI/AAAAAAAAAUM/hCbRrwf46x0lsKcENPxS8vG5UnNe2Sh7ACPcBGAYYCw/s1600/5389899135188992.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://1.bp.blogspot.com/-qRxtfOMtRQc/WVUwygqaHYI/AAAAAAAAAUM/hCbRrwf46x0lsKcENPxS8vG5UnNe2Sh7ACPcBGAYYCw/s1600/responsive/5389899135188992-xs.png 300w ,https://1.bp.blogspot.com/-qRxtfOMtRQc/WVUwygqaHYI/AAAAAAAAAUM/hCbRrwf46x0lsKcENPxS8vG5UnNe2Sh7ACPcBGAYYCw/s1600/responsive/5389899135188992-sm.png 480w ,https://1.bp.blogspot.com/-qRxtfOMtRQc/WVUwygqaHYI/AAAAAAAAAUM/hCbRrwf46x0lsKcENPxS8vG5UnNe2Sh7ACPcBGAYYCw/s1600/responsive/5389899135188992-md.png 768w" alt="" layout="responsive"></amp-img><br><h3 id="yelp-api"><a href="https://www.yelp.com/developers/documentation/v2/overview">Yelp API</a></h3><amp-img src="https://1.bp.blogspot.com/-FtmHTvwDr-s/WVUwzp-TzKI/AAAAAAAAAUo/e3rHOqZck4IV2oUFNi48KwsR5zCULSJ8gCPcBGAYYCw/s1600/5808842886873088.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://1.bp.blogspot.com/-FtmHTvwDr-s/WVUwzp-TzKI/AAAAAAAAAUo/e3rHOqZck4IV2oUFNi48KwsR5zCULSJ8gCPcBGAYYCw/s1600/responsive/5808842886873088-xs.png 300w ,https://1.bp.blogspot.com/-FtmHTvwDr-s/WVUwzp-TzKI/AAAAAAAAAUo/e3rHOqZck4IV2oUFNi48KwsR5zCULSJ8gCPcBGAYYCw/s1600/responsive/5808842886873088-sm.png 480w ,https://1.bp.blogspot.com/-FtmHTvwDr-s/WVUwzp-TzKI/AAAAAAAAAUo/e3rHOqZck4IV2oUFNi48KwsR5zCULSJ8gCPcBGAYYCw/s1600/responsive/5808842886873088-md.png 768w" alt="Yelp" layout="responsive"></amp-img><br><hr><h3 id="twitter-api"><a href="https://dev.twitter.com/rest/public">Twitter API</a></h3><amp-img src="https://4.bp.blogspot.com/-AKeJjilsMxo/WVUwyt4HdfI/AAAAAAAAAUM/fW3W3w8NZkQFWwc7kGZTFD9iQCmuivIOwCPcBGAYYCw/s1600/5230119640891392.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://4.bp.blogspot.com/-AKeJjilsMxo/WVUwyt4HdfI/AAAAAAAAAUM/fW3W3w8NZkQFWwc7kGZTFD9iQCmuivIOwCPcBGAYYCw/s1600/responsive/5230119640891392-xs.png 300w ,https://4.bp.blogspot.com/-AKeJjilsMxo/WVUwyt4HdfI/AAAAAAAAAUM/fW3W3w8NZkQFWwc7kGZTFD9iQCmuivIOwCPcBGAYYCw/s1600/responsive/5230119640891392-sm.png 480w ,https://4.bp.blogspot.com/-AKeJjilsMxo/WVUwyt4HdfI/AAAAAAAAAUM/fW3W3w8NZkQFWwc7kGZTFD9iQCmuivIOwCPcBGAYYCw/s1600/responsive/5230119640891392-md.png 768w" alt="" layout="responsive"></amp-img><br><hr><h3 id="instagram-api"><a href="https://www.instagram.com/developer/">Instagram API</a></h3><amp-img src="https://4.bp.blogspot.com/-ZKmKgCs3PZk/WVUw07dqqYI/AAAAAAAAAUM/I12CsYGG6uMA_HuwUqkw8m25SBuayV8ugCPcBGAYYCw/s1600/5985212472492032.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://4.bp.blogspot.com/-ZKmKgCs3PZk/WVUw07dqqYI/AAAAAAAAAUM/I12CsYGG6uMA_HuwUqkw8m25SBuayV8ugCPcBGAYYCw/s1600/responsive/5985212472492032-xs.png 300w ,https://4.bp.blogspot.com/-ZKmKgCs3PZk/WVUw07dqqYI/AAAAAAAAAUM/I12CsYGG6uMA_HuwUqkw8m25SBuayV8ugCPcBGAYYCw/s1600/responsive/5985212472492032-sm.png 480w ,https://4.bp.blogspot.com/-ZKmKgCs3PZk/WVUw07dqqYI/AAAAAAAAAUM/I12CsYGG6uMA_HuwUqkw8m25SBuayV8ugCPcBGAYYCw/s1600/responsive/5985212472492032-md.png 768w" alt="" layout="responsive"></amp-img><br><hr><h3 id="eventbrite-api"><a href="https://www.eventbrite.com/developer/v3/">EventBrite API</a></h3><amp-img src="https://3.bp.blogspot.com/-WePPa5ma9bA/WVUw0u9bWRI/AAAAAAAAAUY/53x_HpGcg34a5kQYzMXl8DiRJDfaOMrJwCPcBGAYYCw/s1600/6294871293034496%2B%25281%2529.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://3.bp.blogspot.com/-WePPa5ma9bA/WVUw0u9bWRI/AAAAAAAAAUY/53x_HpGcg34a5kQYzMXl8DiRJDfaOMrJwCPcBGAYYCw/s1600/responsive/6294871293034496%2B%25281%2529-xs.png 300w ,https://3.bp.blogspot.com/-WePPa5ma9bA/WVUw0u9bWRI/AAAAAAAAAUY/53x_HpGcg34a5kQYzMXl8DiRJDfaOMrJwCPcBGAYYCw/s1600/responsive/6294871293034496%2B%25281%2529-sm.png 480w ,https://3.bp.blogspot.com/-WePPa5ma9bA/WVUw0u9bWRI/AAAAAAAAAUY/53x_HpGcg34a5kQYzMXl8DiRJDfaOMrJwCPcBGAYYCw/s1600/responsive/6294871293034496%2B%25281%2529-md.png 768w" alt="" layout="responsive"></amp-img><br><hr><h3 id="youtube-api"><a href="https://developers.google.com/youtube/">Youtube API</a></h3><amp-img src="https://3.bp.blogspot.com/-mwR32IksoiM/WVUw1xj5yLI/AAAAAAAAAUY/7JJECfyBgPAI5ZvupkBLnTgY20mZLud1gCPcBGAYYCw/s1600/6458748186132480.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://3.bp.blogspot.com/-mwR32IksoiM/WVUw1xj5yLI/AAAAAAAAAUY/7JJECfyBgPAI5ZvupkBLnTgY20mZLud1gCPcBGAYYCw/s1600/responsive/6458748186132480-xs.png 300w ,https://3.bp.blogspot.com/-mwR32IksoiM/WVUw1xj5yLI/AAAAAAAAAUY/7JJECfyBgPAI5ZvupkBLnTgY20mZLud1gCPcBGAYYCw/s1600/responsive/6458748186132480-sm.png 480w ,https://3.bp.blogspot.com/-mwR32IksoiM/WVUw1xj5yLI/AAAAAAAAAUY/7JJECfyBgPAI5ZvupkBLnTgY20mZLud1gCPcBGAYYCw/s1600/responsive/6458748186132480-md.png 768w" alt="" layout="responsive"></amp-img><br><hr><h3 id="rapid-api"><a href="https://rapidapi.com/">Rapid API</a></h3><amp-img src="https://4.bp.blogspot.com/-9lWJYylISMk/WVUw1_v0lII/AAAAAAAAAUo/Nvwhh09upkEpO1loUOXvDsXSfWb1Ld1UQCPcBGAYYCw/s1600/6610328856297472.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://4.bp.blogspot.com/-9lWJYylISMk/WVUw1_v0lII/AAAAAAAAAUo/Nvwhh09upkEpO1loUOXvDsXSfWb1Ld1UQCPcBGAYYCw/s1600/responsive/6610328856297472-xs.png 300w ,https://4.bp.blogspot.com/-9lWJYylISMk/WVUw1_v0lII/AAAAAAAAAUo/Nvwhh09upkEpO1loUOXvDsXSfWb1Ld1UQCPcBGAYYCw/s1600/responsive/6610328856297472-sm.png 480w ,https://4.bp.blogspot.com/-9lWJYylISMk/WVUw1_v0lII/AAAAAAAAAUo/Nvwhh09upkEpO1loUOXvDsXSfWb1Ld1UQCPcBGAYYCw/s1600/responsive/6610328856297472-md.png 768w" alt="" layout="responsive"></amp-img><aside><dl class="post-tag"><dt>Tags:</dt><dd><a href="https://z3r0stack.github.io/blog/amp/openapi/">OpenAPI</a></dd></dl><amp-social-share type="facebook" width="40" height="40" data-param-app_id="" data-param-text="Open API ที่น่าสนใจ " data-param-href="https://z3r0stack.github.io/blog/amp/open-api.html"></amp-social-share><amp-social-share type="twitter" width="40" height="40" data-param-text="c" data-param-url="https://z3r0stack.github.io/blog/amp/open-api.html"></amp-social-share><amp-social-share type="pinterest" width="40" height="40" data-param-url="https://z3r0stack.github.io/blog/amp/open-api.html"></amp-social-share></aside></article><nav class="pagination"><a href="https://z3r0stack.github.io/blog/amp/website.html" class="pagination-prev" title="Previous">รายการ Website สำหรับการเรียนรู้ด้านโปรแกรมมิ่ง</a></nav></main><footer class="bottom">Powered by Publii</footer><amp-sidebar id="navbar-sidebar" layout="nodisplay"><ul></ul></amp-sidebar></body></html>
