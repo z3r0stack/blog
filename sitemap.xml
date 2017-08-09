@@ -1,5 +1,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
+<loc>https://z3r0stack.github.io/blog/astronomy/</loc>
+</url>
+<url>
 <loc>https://z3r0stack.github.io/blog/authors/z3r0stack/</loc>
 </url>
 <url>
@@ -10,6 +13,12 @@
 </url>
 <url>
 <loc>https://z3r0stack.github.io/blog/</loc>
+</url>
+<url>
+<loc>https://z3r0stack.github.io/blog/nasa/</loc>
+</url>
+<url>
+<loc>https://z3r0stack.github.io/blog/nasa-picture-perseid.html</loc>
 </url>
 <url>
 <loc>https://z3r0stack.github.io/blog/open-api.html</loc>
