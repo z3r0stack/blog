@@ -3,7 +3,7 @@
     <title>z3r0stack</title>
     <link href="https://z3r0stack.github.io/blog/feed.xml" rel="self" />
     <link href="https://z3r0stack.github.io/blog" />
-    <updated>2017-08-09T23:02:04+07:00</updated>
+    <updated>2017-08-09T23:08:56+07:00</updated>
     <author>
         <name>z3r0stack</name>
     </author>
@@ -17,14 +17,13 @@
         <link href="https://z3r0stack.github.io/blog/nasa-picture-perseid.html"/>
         <id>https://z3r0stack.github.io/blog/nasa-picture-perseid.html</id>
             <category term="nasa"/>
+            <category term="meteor"/>
             <category term="Astronomy"/>
 
-        <updated>2017-08-09T23:01:56+07:00</updated>
+        <updated>2017-08-09T23:08:44+07:00</updated>
             <summary></summary>
-        <content type="html">&amp;lt;figure class&#x3D;&amp;quot;post__image post__image--wide&amp;quot; contenteditable&#x3D;&amp;quot;false&amp;quot;&amp;gt;&amp;lt;img src&#x3D;&amp;quot;https://z3r0stack.github.io/blog/media/posts/5/perseidsturkey_tezel_960.jpg&amp;quot; alt&#x3D;&amp;quot;Perseid Meteors over Turkey &amp;quot; width&#x3D;&amp;quot;960&amp;quot; height&#x3D;&amp;quot;640&amp;quot;&amp;gt;
-&amp;lt;figcaption contenteditable&#x3D;&amp;quot;true&amp;quot;&amp;gt;Image Credit &amp;amp;amp; Copyright: Tun&amp;amp;ccedil; Tezel (TWAN)&amp;lt;/figcaption&amp;gt;
-&amp;lt;/figure&amp;gt;
-&amp;lt;p&amp;gt;ฝนดาวตก Perseid เป็นฝนดาวตกที่ยอดเยี่ยมที่สุดในปี 2017 จะปรากฏจำนวนมากในปลายสัปดาห์หน้า คนที่มองดูฝนดาวตกในบริเวณท้องฟ้าโปร่งและในสถานที่มืดสนิท อาจจะมองเห็นดาวตกในทุกๆนาทีได้&amp;lt;/p&amp;gt;
+        <content type="html">&amp;lt;p&amp;gt;ฝนดาวตก Perseid เป็นฝนดาวตกที่ยอดเยี่ยมที่สุดในปี 2017 จะปรากฏจำนวนมากในปลายสัปดาห์หน้า คนที่มองดูฝนดาวตกในบริเวณท้องฟ้าโปร่งและในสถานที่มืดสนิท อาจจะมองเห็นดาวตกในทุกๆนาทีได้&amp;lt;/p&amp;gt;
+
 &amp;lt;p&amp;gt;ดาวตกเหล่านี้ที่จริงแล้วคือส่วนหนึ่งของหินที่แตกออกจากดาวหาง Swift-Tuttle และยังโคจรต่อไป รอบๆดวงอาทิตย์ จนกว่าพวกมันจะกลายเป็นไอในชั้นบรรยากาศของโลก โดยจากภาพแสดงให้เห็นการระเบิดออกของ ดาวตก Perseids โดยปรากฎขึ้นในช่วงฝนดาวตกเมื่อปีที่แล้ว ที่ทางเหนือของตุรกี&amp;lt;/p&amp;gt;
 &amp;lt;p&amp;gt;ดาวตกจำนวนมากถูกจับภาพได้จากการติดตามรังสีความร้อนจากด้านซ้ายสุดของกลุ่มดาว Perseus โดยปลายหางของ Perseids จะยังคงเกิดขึ้นในช่วงสุริยุปราคาในวันที่ 21 สิงหาคม มีโอกาสน้อยมากที่นักฟิสิกส์จะโชคดีสามารถถ่ายภาพฝนดาวตก Perseid ได้ในระหว่างวัน&amp;amp;nbsp;&amp;lt;/p&amp;gt;
 &amp;lt;p&amp;gt;&amp;amp;nbsp;&amp;lt;/p&amp;gt;
@@ -36,6 +35,7 @@
 &amp;lt;p class&#x3D;&amp;quot;msg msg--info&amp;quot;&amp;gt;&amp;lt;em&amp;gt;&amp;lt;strong&amp;gt;ปกติแล้วเขาเป็นคนบ้า แต่ก็มีบางเสี้ยวขณะ ที่เขาก็แค่เป็นคนโง่&amp;lt;/strong&amp;gt;&amp;lt;/em&amp;gt;&amp;lt;br&amp;gt;--ไฮน์ริช ไฮเนอ นักวิจารณ์และกวีชาวเยอรมัน&amp;lt;/p&amp;gt;
 &amp;lt;/blockquote&amp;gt;</content>
 
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://z3r0stack.github.io/blog/media/posts/5/perseidsturkey_tezel_960.jpg" />
     </entry>
     <entry>
         <title>Open API ที่น่าสนใจ </title>
@@ -46,7 +46,7 @@
         <id>https://z3r0stack.github.io/blog/open-api.html</id>
             <category term="OpenAPI"/>
 
-        <updated>2017-07-26T22:04:05+07:00</updated>
+        <updated>2017-08-09T23:06:40+07:00</updated>
             <summary></summary>
         <content type="html">&amp;lt;h1 id&#x3D;&amp;quot;open-api-interesting-i&amp;quot;&amp;gt;รายการ Open API&amp;amp;nbsp;&amp;lt;/h1&amp;gt;
 &amp;lt;h3 id&#x3D;&amp;quot;serverless-framework&amp;quot;&amp;gt;&amp;lt;a href&#x3D;&amp;quot;https://serverless.com/&amp;quot;&amp;gt;Serverless Framework&amp;lt;/a&amp;gt;&amp;lt;/h3&amp;gt;
@@ -161,13 +161,13 @@
         <id>https://z3r0stack.github.io/blog/first-post-my-blog.html</id>
             <category term="blog"/>
 
-        <updated>2017-07-26T22:03:37+07:00</updated>
+        <updated>2017-08-09T23:05:04+07:00</updated>
             <summary></summary>
         <content type="html">&amp;lt;p class&#x3D;&amp;quot;msg--highlight msg--success msg&amp;quot;&amp;gt;มาจะกล่าวบทไป....&amp;lt;/p&amp;gt;
 &amp;lt;p&amp;gt;บันทึกเริ่ม Blog&amp;amp;nbsp;&amp;lt;/p&amp;gt;
 
 &amp;lt;p&amp;gt;สาระซึ่งมิสามารถหาได้&amp;lt;/p&amp;gt;
-&amp;lt;p&amp;gt;อยากเขียนอะไรก็เขียน เริ่มต้นจาก Zero จะก้าวไปสู่ Hero&amp;amp;nbsp;&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;อยากเขียนอะไรก็เขียน &amp;amp;nbsp; เลอะๆเทอะๆ&amp;lt;/p&amp;gt;
 &amp;lt;p&amp;gt;รูป Cover Octocat ไม่เกี่ยว เห็นน่ารักดี เลยยืมมาหน่อย&amp;lt;/p&amp;gt;
 &amp;lt;br&amp;gt;&amp;lt;hr&amp;gt;
 &amp;lt;p&amp;gt;A วัง&amp;lt;/p&amp;gt;
