@@ -1,5 +1,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
+<loc>https://z3r0stack.github.io/blog/</loc>
+</url>
+<url>
 <loc>https://z3r0stack.github.io/blog/astronomy/</loc>
 </url>
 <url>
@@ -24,22 +27,13 @@
 <loc>https://z3r0stack.github.io/blog/doing/</loc>
 </url>
 <url>
-<loc>https://z3r0stack.github.io/blog/easy/</loc>
-</url>
-<url>
 <loc>https://z3r0stack.github.io/blog/first-post-my-blog.html</loc>
-</url>
-<url>
-<loc>https://z3r0stack.github.io/blog/github/</loc>
 </url>
 <url>
 <loc>https://z3r0stack.github.io/blog/how/</loc>
 </url>
 <url>
 <loc>https://z3r0stack.github.io/blog/idea/</loc>
-</url>
-<url>
-<loc>https://z3r0stack.github.io/blog/</loc>
 </url>
 <url>
 <loc>https://z3r0stack.github.io/blog/meteor/</loc>
@@ -64,9 +58,6 @@
 </url>
 <url>
 <loc>https://z3r0stack.github.io/blog/reference-coding.html</loc>
-</url>
-<url>
-<loc>https://z3r0stack.github.io/blog/staticsite/</loc>
 </url>
 <url>
 <loc>https://z3r0stack.github.io/blog/web/</loc>
